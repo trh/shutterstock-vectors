@@ -3,8 +3,8 @@ module ShutterstockRuby
   class Vectors
     extend Connections
 
-    def self.search(query, options = {})
-      JSON.parse(self.get('/vector/search', { query: query }.merge(options)))
+    def self.search(query, options = {image_type: "vector"})
+      JSON.parse(self.get('/images/search', { query: query }.merge(options)))
     end
   end
 end
