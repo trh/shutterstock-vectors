@@ -1,6 +1,6 @@
 module ShutterstockRuby
   # A class to hold all vector related code.
-  class Images
+  class Vectors
     extend Connections
 
     def self.search(query, options = {})

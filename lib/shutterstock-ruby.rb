@@ -1,8 +1,7 @@
 require 'json'
 require 'rest_client'
 require 'shutterstock-ruby/connections'
-require 'shutterstock-ruby/images'
-require 'shutterstock-ruby/videos'
+require 'shutterstock-ruby/vectors'
 
 # Top level name space for the entire Gem.
 module ShutterstockRuby
